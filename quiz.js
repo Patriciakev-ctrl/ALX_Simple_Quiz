@@ -16,4 +16,4 @@ function checkAnswer(){
         document.querySelector("#feedback").textContent = "That's incorrect. Try again!";
     }
 }
-document.querySelector("#submit-answer").addEventListener("click",checkAnswer);
+document.getElementById("submit-answer").addEventListener("click",checkAnswer);
