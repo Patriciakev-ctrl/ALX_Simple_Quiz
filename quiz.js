@@ -9,7 +9,7 @@ function checkAnswer(){
             userAnswer = checkbox.value;
         }
     });
-    if(userAnswer === correctAnswer){
+    if (userAnswer === correctAnswer){
         document.querySelector("#feedback").textContent = "Correct! Well done.";
     }
     else{
